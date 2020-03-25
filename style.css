@@ -1158,7 +1158,7 @@ body.stretched #header.full-header .container {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px;
-	color: #444;
+	color: rgb(235, 235, 235);
 	font-weight: bold;
 	font-size: 13px;
 	letter-spacing: 1px;
@@ -1187,9 +1187,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
-
-#primary-menu > ul > li.sub-menu > a > div { }
+#primary-menu ul li.current > a { color: rgb(250, 250, 250); }
 
 body.no-superfish #primary-menu li:hover > ul:not(.mega-menu-column),
 body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; }
@@ -4912,7 +4910,7 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 	letter-spacing: 1px;
 }
 
-.entry-title h2 a { color: #333; }
+.entry-title h2 a { color: rgb(241, 241, 241); }
 
 .entry-title h2 a:hover { color: #1ABC9C; }
 
@@ -5871,7 +5869,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-image > a {
 }
 
 .product-title h3 a,
-.single-product .product-title h2 a { color: #333; }
+.single-product .product-title h2 a { color: rgb(241, 241, 241); }
 
 .product-title h3 a:hover,
 .single-product .product-title h2 a:hover { color: #1ABC9C; }
@@ -11305,7 +11303,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #333;
+	color: rgb(241, 241, 241);
 }
 
 .emphasis-title h1,
